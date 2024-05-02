@@ -18,8 +18,6 @@ public class Usuario {
     private String numero;
     private String complemento;
 
-    private NotaFiscal nf;
-
     // Construtor
     public Usuario(long id, boolean consentimento, String nome, String cpf, String email, String perfil, String role,
                    String senha, String telefone, String estado, String municipio, String cep, String bairro,
@@ -169,13 +167,5 @@ public class Usuario {
 
     public void setComplemento(String complemento) {
         this.complemento = complemento;
-    }
-
-    public NotaFiscal getNf() {
-        return nf;
-    }
-
-    public void setNf(NotaFiscal nf) {
-        this.nf = nf;
     }
 }
